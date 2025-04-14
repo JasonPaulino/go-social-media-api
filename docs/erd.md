@@ -16,7 +16,7 @@ erDiagram
         string password_hash
         string first_name
         string last_name
-        string phone_number (in E.164 format)
+        string phone_number
         datetime created_at
     }
 
