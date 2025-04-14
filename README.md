@@ -11,6 +11,7 @@ This project follows an idiomatic Go folder structure inspired by real-world, pr
     │   ├── auth/           # Authorization logic (e.g., session/JWT management)
     │   ├── user/           # Domain logic for user management
     │   ├── post/           # Domain logic for social media posts
+    │   ├── comment/        # Domain logic for social media comments on posts
     │   └── middleware/     # Custom HTTP middleware (auth, logging, recovery, etc.)
     │
     ├── api/                # Versioned HTTP route handlers
@@ -25,6 +26,8 @@ This project follows an idiomatic Go folder structure inspired by real-world, pr
     ├── docs/               # Project documentation, specifications, or diagrams
     ├── go.mod              # Go module definition
     ├── go.sum              # Dependency verification checksums
-    └── README.md           # You're here!
+    └── README.md
 
-> This structure helps separate concerns and promotes maintainability as the project grows. Business logic lives under `internal/`, while HTTP-layer logic and versioning are handled under `api/`.
+## 🗂 Entity Relationship Diagram (ERD)
+
+See the full ERD [here](docs/erd.md).
